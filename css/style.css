@@ -1532,6 +1532,10 @@ h6 {
   padding: 100px 0 95px 0
 }
 .faq__container {
+  max-width: 1215px
+}
+.faq--2 .faq__container,
+.faq--reverse .faq__container {
   max-width: 1278px
 }
 .faq__body {
@@ -1569,6 +1573,7 @@ h6 {
   align-self: flex-start;
   width: 100%;
   position: relative;
+  margin-right: 15px;
   z-index: 2
 }
 .faq__img::before {
@@ -1590,7 +1595,8 @@ h6 {
   filter: drop-shadow(0 20px 35px rgba(0, 0, 0, .1))
 }
 .faq--2 .faq__img {
-  max-width: 573px
+  max-width: 573px;
+  margin-right: 0
 }
 .faq--2 .faq__img::before {
   bottom: -55px;
@@ -1598,6 +1604,7 @@ h6 {
 }
 .faq--reverse .faq__img {
   max-width: 715px;
+  margin-right: 0;
   margin-left: -122px
 }
 .faq--reverse .faq__img::before {
@@ -2122,6 +2129,9 @@ h6 {
     margin-left: 0
   }
   .faq--reverse .faq__content {
+    margin-right: 0
+  }
+  .faq__img {
     margin-right: 0
   }
   .faq--reverse .faq__img {
