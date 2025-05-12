@@ -2072,6 +2072,9 @@ h6 {
   .language-block {
     margin-right: 0
   }
+  .hero__body {
+    gap: 15px
+  }
   .hero__img {
     margin-right: 0
   }
@@ -2492,6 +2495,9 @@ h6 {
   .quote__text {
     font-size: 16px;
     line-height: 150%
+  }
+  .partners {
+    padding: 53px 0 30px 0
   }
   .partners__head {
     margin-bottom: 20px;
